@@ -1,0 +1,18 @@
+# config/locales/ja.yml
+
+ja:
+  activerecord:
+    attributes:
+      schedule:
+        title: "タイトル"
+        start_date: "開始日"
+        end_date: "終了日"
+        all_day: "終日"
+        memo: "メモ"
+    errors:
+      messages:
+        blank: "を入力してください"
+        too_long: "は%{count}文字以内で入力してください"
+        invalid_date: "は不正な値です"
+        greater_than_or_equal_to: "は%{count}以上で入力してください"
+        less_than_or_equal_to: "は%{count}以下で入力してください"
